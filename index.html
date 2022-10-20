@@ -7,8 +7,14 @@
 
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
+   
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,9 +53,9 @@
       </div>
     </nav>
     <main>
-      <div class="banner">
+      <div data-aos="zoom-out" class="banner">
         <img src="./img/banner.jpg" alt="Banner DreArt" />
-        <h1>
+        <h1 class="animate__bounceIn">
           DreArt Studios<br />
           "Acá va el slogan"
         </h1>
@@ -79,7 +85,7 @@
       </section>
       <h2>Servicios disponibles</h2>
       <article class="services">
-        <div class="card">
+        <div data-aos="fade-right" class="card">
           <img src="./img/3d-modelig.jpg" alt="Denim Jeans" />
           <h3>Modelado en 3D</h3>
           <p>
@@ -91,7 +97,7 @@
             <a href="./3dmodel.html"><button>Conocer más</button></a>
           </p>
         </div>
-        <div class="card">
+        <div data-aos="fade-up" class="card">
           <img src="./img/gdesign-desc.jpg" alt="Denim Jeans" />
           <h3>Diseño Gráfico</h3>
           <p>
@@ -103,7 +109,7 @@
             <a href="./gdesign.html"><button>Conocer más</button></a>
           </p>
         </div>
-        <div class="card">
+        <div data-aos="fade-left" class="card">
           <img src="./img/3d-modelig.jpg" alt="Denim Jeans" />
           <h3>Modelado en 3D</h3>
           <p>
@@ -160,5 +166,9 @@
         <p>ALL RIGHTS RESERVED © DREARTSTUDIO 2022</p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
