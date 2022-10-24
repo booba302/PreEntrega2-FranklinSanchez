@@ -141,6 +141,11 @@ h3 {
 .btn-card:hover {
   background-color: #6d449c;
 }
+/*carrousel*/
+
+.carrousel {
+  padding: 5%;
+}
 
 /* service pages */
 
